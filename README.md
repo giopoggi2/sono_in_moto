@@ -12,4 +12,4 @@ Funzionamento:
   7. Appena lo script main.py trova un file "off.zip", cancella il file, ferma lo script "attivo.py" (in ogni caso esegue il comando, che lo script sia attivo o no)
   8. Continua a scaricare e cancellare i file in ciclo continuo, l'unico modo per fermarlo completamente è dalla console
 
-N.B. Al momento c'è bisogno di cambiare il percorso della cartella dei download dentro allo script main.py, prossimamente provvederò a renderlo più dinamico
+N.B. Al momento c'è bisogno di cambiare il percorso della cartella dei download dentro allo script main.py e per ora funziona solo con WhatsApp in modalità scura, prossimamente provvederò a renderlo più dinamico
