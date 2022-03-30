@@ -18,12 +18,12 @@ while True:
    #pausetta per far scaricare il file
    sleep(2)
    #se il file è di nome ON lo elimina e continua dentro all'altro script
-   if os.path.exists("/Users/Giopoggi2/Downloads/on.zip"):
-      os.remove("/Users/Giopoggi2/Downloads/on.zip")
+   if os.path.exists("/Users/nome/Downloads/on.zip"):
+      os.remove("/Users/nome/Downloads/on.zip")
       os.system("py whatsapp/attivo.py 1")
    #se è di nome OFF lo elimina e ferma l'altro script ma continua ad andare
-   if os.path.exists("/Users/Giopoggi2/Downloads/off.zip"):
-      os.remove("/Users/Giopoggi2/Downloads/off.zip")
+   if os.path.exists("/Users/nome/Downloads/off.zip"):
+      os.remove("/Users/nome/Downloads/off.zip")
       print("pkill -f attivo.py")
    #pausa per evitare un eccessivo consumo di risorse
    sleep(10)
